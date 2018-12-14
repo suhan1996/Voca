@@ -1,16 +1,22 @@
 {
   "manifest_version": 2,
-  "name": "Linkshare",
-  "description": "A simple link sharing Chrome extension",
+  "name": "Webber",
+  "description": "Talk about the page",
   "version": "1.0",
   "browser_action": {
-    "default_icon": "linkshare.png",
-    "default_popup": "linkshare.html",
-    "default_title": "Linkshare"
+    "default_icon": "webber1.png",
+    "default_popup": "Webber.html",
+    "default_title": "Webber"
   },
   "permissions": [
     "activeTab",
-    "https://ajax.googleapis.com/"
+    "https://ajax.googleapis.com/",
+    "http://*/",
+    "http://api.mongolab.com/*",
+    "geolocation",
+    "notifications",
+    "storage"
   ],
+
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }

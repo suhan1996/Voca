@@ -1,0 +1,6 @@
+{
+  "fivek": ["hello","thanks"],
+  "exclude": [
+    "node_modules"
+  ]
+}
